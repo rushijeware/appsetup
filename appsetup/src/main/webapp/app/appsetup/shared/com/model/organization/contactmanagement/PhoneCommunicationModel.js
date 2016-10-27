@@ -1,0 +1,31 @@
+Ext.define('Appsetup.appsetup.shared.com.model.organization.contactmanagement.PhoneCommunicationModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "phoneId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "commtype",
+          "reference": "PhoneCategory",
+          "defaultValue": ""
+     }, {
+          "name": "phoneNo",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

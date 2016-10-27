@@ -1,0 +1,35 @@
+Ext.define('Appsetup.appsetup.shared.com.model.appbasicsetup.aaa.JwtConfigModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "configId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "jwtAlgorithm",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "expiration",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "tokenKey",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
